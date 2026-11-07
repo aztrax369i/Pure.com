@@ -1,5 +1,5 @@
 # Pure.com
-E-commerce orientado a la **confección**, **personalización** y **venta** de uniformes de trabajo: pijamas quirúrgicas para personal de salud, de belleza y estudiantes.
+E-commerce orientado a la **confección**, **personalización** y **venta** de uniformes de trabajo medico para personal de salud y estudiantes.
 
 Integración del equipo:
 - _**Rafael Santana**: SCRUM Master._ Vigila el cumplimiento de los tiempos de los Sprints, resuelve bloqueos y conecta el Backend con las vistas de Frontend consumiendo la API.
