@@ -2,6 +2,7 @@
 E-commerce orientado a la **confección**, **personalización** y **venta** de uniformes de trabajo: pijamas quirúrgicas para personal de salud, de belleza y estudiantes.
 
 Integración del equipo:
+
 - _**Rafael Santana**: SCRUM Master._ Vigila el cumplimiento de los tiempos de los Sprints, resuelve bloqueos y conecta el Backend con las vistas de Frontend consumiendo la API.
 - _**Aranza Islas**: Liderazgo de Frontend - UI/UX._ Maqueta las vistas en HTML5 y CSS3 (Bootstrap), garantizando que la plataforma sea de fácil navegación y cumpla con el diseño responsivo.
 - _**Alexander Olivieri**: Lógica de Frontend._ Desarrolla el comportamiento dinámico con JavaScript (ECMAScript 6), enfocándose en los temporizadores de las subastas y la validación de formularios en el cliente.
