@@ -7,9 +7,9 @@ Integración del equipo:
 
 - _**Aranza Islas**: Liderazgo de Frontend - UI/UX._ Maqueta las vistas en HTML5 y CSS3 (Bootstrap), garantizando que la plataforma sea de fácil navegación y cumpla con el diseño responsivo.
 
-- _**Alexander Olivieri**: Lógica de Frontend._ Desarrolla el comportamiento dinámico con JavaScript (ECMAScript 6), enfocándose en los temporizadores de las subastas y la validación de formularios en el cliente.
+- _**Alexander Olivieri**: Lógica de Frontend._ Desarrolla el comportamiento dinámico con JavaScript, enfocándose en las acciones en los botones y la validación de formularios en el cliente.
 
-- _**Ricardo Teneyuque**: Backend - Módulo Logístico y Administrativo._ Desarrolla el panel de administrador para la aprobación de artículos y la lógica de selección de envío (generación de QR). Diseña la arquitectura relacional en MySQL, las entidades JPA y construye los controladores REST principales en Spring Boot.
+- _**Ricardo Teneyuque**: Backend - Módulo Logístico y Administrativo._ Desarrolla el panel de administrador para la aprobación de artículos y la lógica de selección de envío (generan de QR). Diseña la arquitectura relacional en MySQL, las entidades JPA y construye los controladores REST principales en Spring Boot.
 
 - _**Víctor Gómez**: Backend - Seguridad y Lógica Core._ Configura Spring Security (JWT) y desarrolla la lógica de negocio compleja, como el control de pujas concurrentes y el sistema de pagos (Escrow).
 
