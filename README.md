@@ -14,5 +14,3 @@ Integración del equipo:
 - _**Víctor Gómez**: Backend - Seguridad y Lógica Core._ Configura Spring Security (JWT) y desarrolla la lógica de negocio compleja, como el control de pujas concurrentes y el sistema de pagos (Escrow).
 
 - _**Sofía Zambrano**: QA, Pruebas y DevOps._ Lidera las pruebas de las operaciones (Postman), gestiona el control de versiones (Git/GitHub) en la rama principal y coordina el despliegue final de la aplicación web.
-
-
