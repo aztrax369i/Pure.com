@@ -1,0 +1,245 @@
+/* ==========================================================
+   PURE - VARIABLES DE IDENTIDAD
+========================================================== */
+
+:root {
+    --pure-red: #B0000B;
+    --pure-gold: #D9AC73;
+    --pure-light: #E8E7E3;
+    --pure-gray: #B3B3B3;
+    --pure-dark: #2E313D;
+
+    --font-title: "Cormorant Garamond", serif;
+    --font-body: "Montserrat", sans-serif;
+}
+
+
+/* ==========================================================
+   BASE
+========================================================== */
+
+body {
+    background-color: var(--pure-light);
+    color: var(--pure-dark);
+    font-family: var(--font-body);
+}
+
+
+/* ==========================================================
+   SECCIÓN
+========================================================== */
+
+#equipo {
+    background-color: var(--pure-light);
+}
+
+.section-label {
+    color: var(--pure-red);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+}
+
+.section-title {
+    color: var(--pure-dark);
+    font-family: var(--font-title);
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.section-description {
+    color: var(--pure-gray);
+    font-family: var(--font-body);
+    max-width: 650px;
+}
+
+
+/* ==========================================================
+   TEAM CARD
+========================================================== */
+
+.team-card {
+    height: 520px;
+    perspective: 1200px;
+    cursor: pointer;
+}
+
+.team-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.7s ease;
+    transform-style: preserve-3d;
+}
+
+.team-card.is-flipped .team-card-inner {
+    transform: rotateY(180deg);
+}
+
+.team-card-front,
+.team-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border: 1px solid var(--pure-gray);
+    background-color: var(--pure-dark);
+    overflow: hidden;
+}
+
+
+/* ==========================================================
+   FRENTE
+========================================================== */
+
+.team-card-front {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.team-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.team-card:hover .team-image img {
+    transform: scale(1.04);
+}
+
+.team-info {
+    padding: 1.4rem;
+    flex-grow: 1;
+}
+
+.team-role {
+    display: block;
+    color: var(--pure-gold);
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.team-info h2,
+.team-card-back h2 {
+    color: var(--pure-light);
+    font-family: var(--font-title);
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.team-info p {
+    color: var(--pure-gray);
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+
+/* ==========================================================
+   REDES
+========================================================== */
+
+.team-links {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.social-link {
+    width: 36px;
+    height: 36px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--pure-light);
+    border: 1px solid var(--pure-gold);
+
+    text-decoration: none;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: var(--pure-gold);
+    color: var(--pure-dark);
+}
+
+
+/* ==========================================================
+   BOTÓN GIRAR
+========================================================== */
+
+.flip-button {
+    border: 0;
+    background: transparent;
+    color: var(--pure-gold);
+    font-family: var(--font-body);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    padding: 0;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.flip-button:hover {
+    color: var(--pure-light);
+}
+
+
+/* ==========================================================
+   PARTE TRASERA
+========================================================== */
+
+.team-card-back {
+    transform: rotateY(180deg);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2rem;
+}
+
+.team-card-back p {
+    color: var(--pure-gray);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    line-height: 1.8;
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width: 767.98px) {
+
+    .team-card {
+        height: 500px;
+    }
+
+    .team-image {
+        height: 280px;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+}
