@@ -103,3 +103,42 @@
   min-width: 380px;
   box-sizing: border-box; 
 }
+
+.miniatures{
+
+  max-width: 100%;
+  width: 250px;
+  height: auto;
+}
+
+  .contenedor-circulos {
+      display: flex;
+      gap: 15px; 
+    }
+
+    .circulo {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%; 
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .circulo:hover {
+      transform: scale(1.1); 
+    }
+
+    .blanco {
+      background-color: #ffffff;
+      border: 3px solid #b5b5b5;
+    }
+
+    .negro {
+      background-color: #000000;
+      border: 3px solid #b5b5b5;
+    }
+
+    .azul {
+      background-color: #024354;
+      border: 3px solid #a9bcc2;
+    }
