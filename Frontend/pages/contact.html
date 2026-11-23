@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -14,76 +15,60 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
 
     <!-- CSS Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
     <header id="navbar"></header>
     <div class="container-fluid">
-      <section class="PageIntroduction">
-        <div class="row">
-          <div class="col">
-            <p class="Breadcrumb">Inicio / Contacto</p>
-            <h5>ESTAMOS PARA ORIENTARTE</h5>
-            <h1>Hablemos de tu uniforme.</h1>
-            <p>
-              Una duda sobre tu talla, una selección para tu equipo o un detalle
-              de tu pedido. Cuéntanos qué necesitas.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="ContactLayout">
-        <div class="row">
-          <div class="col-4">
-            <h5>ENCUENTRA TU CANAL</h5>
-            <div>
-              <h5>Por correo</h5>
-              <p>contacto@pure.com</p>
+        <section class="PageIntroduction">
+            <div class="row">
+                <div class="col">
+                    <p class="Breadcrumb">Inicio / Contacto</p>
+                    <h5>ESTAMOS PARA ORIENTARTE</h5>
+                    <h1>Hablemos de tu uniforme.</h1>
+                    <p>
+                        Una duda sobre tu talla, una selección para tu equipo o un detalle de tu pedido. Cuéntanos qué necesitas.
+                    </p>
+                </div>
             </div>
-            <div>
-              <h5>Por teléfono</h5>
-              <p>(55) 55 - 52 - 53 - 54 -55</p>
-            </div>
-            <div>
-              <h5>Por este formulario</h5>
-              <p>
-                Deja tu consulta y el medio por el que prefieres recibir
-                respuesta.
-              </p>
-            </div>
-            <div>
-              <h5>INFORMACIÓN OFICIAL DE CONTACTO</h5>
-              <p>
-                Los canales oficiales, la dirección y los horarios pertenecen a
-                PURE y están actualizados al día de hoy.
-              </p>
-            </div>
-          </div>
+        </section>
+        <section class="ContactLayout">
+            <div class="row">
+                <div class="col-4">
+                    <h5>ENCUENTRA TU CANAL</h5>
+                    <div>
+                        <h5>Por correo</h5>
+                        <p>contacto@pure.com</p>
+                    </div>
+                    <div>
+                        <h5>Por teléfono</h5>
+                        <p>(55) 55 - 52 - 53 - 54 -55</p>
+                    </div>
+                    <div>
+                        <h5>Por este formulario</h5>
+                        <p>
+                            Deja tu consulta y el medio por el que prefieres recibir respuesta.
+                        </p>
+                    </div>
+                    <div>
+                        <h5>INFORMACIÓN OFICIAL DE CONTACTO</h5>
+                        <p>
+                            Los canales oficiales, la dirección y los horarios pertenecen a PURE y están actualizados al día de hoy.
+                        </p>
+                    </div>
+                </div>
 
-          <div class="col-8">
-            <form>
-              <h2>Escríbenos</h2>
-              <p>* Campos obligatorios · Ejemplo de validación visible</p>
-              <label class="form-label">Nombre completo*</label>
-              <input
-                type="name"
-                class="form-control"
-                placeholder="Nombre de ejemplo"
-                required
-              />
-              <label for="exampleInputEmail1" class="form-label"
-                >Correo electrónico*</label
+                <div class="col-8">
+                    <form>
+                        <h2>Escríbenos</h2>
+                        <p>* Campos obligatorios · Ejemplo de validación visible</p>
+                        <label class="form-label">Nombre completo*</label>
+                        <input type="name" class="form-control" placeholder="Nombre de ejemplo" required />
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico*</label
               >
               <input
                 type="email"
@@ -93,62 +78,48 @@
               />
               <label class="form-label">Motivo de contacto*</label>
 
-              <select class="form-control" required>
+                        <select class="form-control" required>
                 <option value="opcion1">Dudas o comentarios</option>
                 <option value="opcion2">Seguimiento de mi pedido</option>
                 <option value="opcion3">Pedido especial</option>
               </select>
-              <label class="form-label">Número de pedido (opcional)</label>
-              <input
-                class="form-control"
-                placeholder="Si tu consulta es sobre una compra"
-              />
-              <label class="form-label">Tu mensaje*</label>
-              <input
-                class="form-control"
-                placeholder="Cuéntanos sobre la prenda, talla o consulta que tienes…"
-              />
-              <p>No incluyas datos de pago ni información sensible.</p>
-              <input type="checkbox" id="checkbox" required />
-              <label>
+                        <label class="form-label">Número de pedido (opcional)</label>
+                        <input class="form-control" placeholder="Si tu consulta es sobre una compra" />
+                        <label class="form-label">Tu mensaje*</label>
+                        <input class="form-control" placeholder="Cuéntanos sobre la prenda, talla o consulta que tienes…" />
+                        <p>No incluyas datos de pago ni información sensible.</p>
+                        <input type="checkbox" id="checkbox" required />
+                        <label>
                 He leído y acepto el aviso de privacidad para la atención de mi
                 consulta.*
               </label>
-              <input
-                class="btn btn-primary d-flex"
-                type="submit"
-                value="Submit"
-              />
-              <p>
-                Corrige el correo, completa el mensaje y acepta el aviso para
-                habilitar el envío.
-              </p>
-            </form>
-          </div>
-        </div>
-      </section>
+                        <input class="btn btn-primary d-flex" type="submit" value="Submit" />
+                        <p>
+                            Corrige el correo, completa el mensaje y acepta el aviso para habilitar el envío.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
 
-      <section class="FrequentlyAskedQuestions">
-        <div class="row">
-          <div class="col">
-            <h5>ANTES DE ESCRIBIR</h5>
-            <h1>Quizá tu respuesta está aquí.</h1>
-            <hr />
-            <h5>¿Cómo elijo mi talla?</h5>
-            <p>
-              Revisa la tabla orientativa de la ficha de producto. Compara pecho
-              y cintura con tus medidas y consulta si estás entre dos tallas.
-            </p>
-            <hr />
-            <h5>¿Dónde consulto la composición?</h5>
-            <p>
-              Cada ficha incluye el material propuesto. La composición
-              definitiva y las instrucciones de cuidado están pendientes de
-              validación.
-            </p>
-          </div>
-        </div>
-      </section>
+        <section class="FrequentlyAskedQuestions">
+            <div class="row">
+                <div class="col">
+                    <h5>ANTES DE ESCRIBIR</h5>
+                    <h1>Quizá tu respuesta está aquí.</h1>
+                    <hr />
+                    <h5>¿Cómo elijo mi talla?</h5>
+                    <p>
+                        Revisa la tabla orientativa de la ficha de producto. Compara pecho y cintura con tus medidas y consulta si estás entre dos tallas.
+                    </p>
+                    <hr />
+                    <h5>¿Dónde consulto la composición?</h5>
+                    <p>
+                        Cada ficha incluye el material propuesto. La composición definitiva y las instrucciones de cuidado están pendientes de validación.
+                    </p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <footer id="footer"></footer>
@@ -157,10 +128,7 @@
     <script type="module" src="../js/main.js"></script>
 
     <!-- JS Bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
 </html>

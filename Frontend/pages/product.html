@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/footer.css" />
-    <!-- <link rel="stylesheet" href="../css/product.css" /> -->
+    <link rel="stylesheet" href="../css/product.css" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,12 +23,12 @@
 
 <body>
     <header id="navbar"></header>
-    <div class="container-fluid">
+    <div class="container-fluid background-container p-5">
         <section class="Products&Publications">
             <div class="row">
                 <div class="col">
                     <p>Inicio / Productos</p>
-                    <h5>EL CATÁLOGO PURE</h5>
+                    <h5 class="catalogoPure">EL CATÁLOGO PURE</h5>
                     <h1>Profesionales por naturaleza.</h1>
                     <p>
                         Encuentra tu uniforme por corte, prenda y entorno de trabajo. Una selección de líneas precisas y presencia sobria.
@@ -38,90 +38,201 @@
         </section>
         <section class="CollectionTabs">
             <div class="row">
-                <div class="col">
-                    <button>Todos</button>
-                    <button>Corte Masculino</button>
-                    <button>Corte Femenil</button>
-                    <button>Unisex</button>
+                <div class="col p-1">
+                    <button class="p-2 marginb">Todos</button>
+                    <button class="p-2 marginb">Corte Masculino</button>
+                    <button class="p-2 marginb">Corte Femenil</button>
+                    <button class="p-2 marginb">Unisex</button>
                 </div>
             </div>
         </section>
         <section class="CatalogoLayout">
             <div class="row">
-                <div class="col-2">
+                <div class="col-3 p-3">
                     <div class="d-flex">
                         <h5>Filtros</h5>
-                        <button>F</button>
+                        <span class="ms-2">☰</span>
                     </div>
 
                     <div class="Categoría">
-                        <input type="checkbox" name="" id="checkbox" />
-                        <label for="">Todos los cortes</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Corte masculino</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Corte femenil</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Corte unisex</label>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Todos los cortes</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Corte masculino</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Corte femenil</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Corte unisex</label>
+                        </div>
                     </div>
 
                     <div class="prenda">
                         <h5>Prenda</h5>
                         <input type="checkbox" name="" id="checkbox" />
                         <label for="">Todos las prendas</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Filipinas</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Pantalones</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Saco</label>
-                        <input type="checkbox" name="" id="checkbox" />
-                        <label for="">Chamarra</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Cubre polvos</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Chaleco</label>
-                        <input type="checkbox" name="" />
-                        <label for="">Uniformes estandarizados</label>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Filipinas</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Pantalones</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Saco</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="checkbox" />
+                            <label for="">Chamarra</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Cubre polvos</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Chaleco</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Estandarizados</label>
+                        </div>
                     </div>
 
                     <div class="color">
                         <h5>Color</h5>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Todos los colores</label>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Blanco</label>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Negro</label>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Azul Petróleo</label>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Todos los colores</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Blanco</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Negro</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Azul Petróleo</label>
+                        </div>
                     </div>
 
-                    <div class="material">
+                    <div class="material mb-2">
                         <h5>Material</h5>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Todos los materiales</label>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Poliéster / Algodón</label>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Microfibra</label>
-                        <input type="checkbox" name="" id="" />
-                        <label for="">Neopreno</label>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Todos los materiales</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Poliéster / Algodón</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Microfibra</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="" />
+                            <label for="">Neopreno</label>
+                        </div>
                     </div>
-                    <button type="reset">Restablecer Filtros</button>
+                    <button class="p-1 marginb" type="reset">
+              Restablecer Filtros
+            </button>
                 </div>
-                <div class="col-10">
-                    <div class="results">
-                        <label for="">12 productos</label>
-                        <select name="" id="">
-                <option value="">Item</option>
-                <option value="">Corte</option>
-                <option value="">Precio</option>
-              </select>
+                <div class="col-9 p-3">
+                    <div class="results text-end">
+                        <label class="m-auto d-inline">12 productos</label>
+                        <div class="d-inline">
+                            <select name="" id="">
+                  <option value="">Ordenar por: Item</option>
+                  <option value="">Corte</option>
+                  <option value="">Precio</option>
+                </select>
+                        </div>
+                    </div>
+                    <div class="products m-1 p-2">
+                        <div class="card d-inline-flex m-1" style="width: 18vw">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1cD9RQRmdbsXOE1Pch13Y4C6cAU9UbcsybPluVgLvw&s=10" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <span>Corte femenino - Filipinas</span>
+                                <h5 class="card-title">Filipina Ares</h5>
+                                <p class="card-text">$550.00 MXN</p>
+                                <div>
+                                    <a class="link" href="">
+                                        <div style="background-color: white" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                    <a class="link" href="">
+                                        <div style="background-color: black" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                    <a class="link" href="">
+                                        <div style="background-color: blue" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d-inline-flex m-1" style="width: 18vw">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1cD9RQRmdbsXOE1Pch13Y4C6cAU9UbcsybPluVgLvw&s=10" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <span>Corte femenino - Filipinas</span>
+                                <h5 class="card-title">Filipina Ares</h5>
+                                <p class="card-text">$550.00 MXN</p>
+                                <div>
+                                    <a class="link" href="">
+                                        <div style="background-color: white" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                    <a class="link" href="">
+                                        <div style="background-color: black" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                    <a class="link" href="">
+                                        <div style="background-color: blue" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card d-inline-flex m-1" style="width: 18vw">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1cD9RQRmdbsXOE1Pch13Y4C6cAU9UbcsybPluVgLvw&s=10" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <span>Corte femenino - Filipinas</span>
+                                <h5 class="card-title">Filipina Ares</h5>
+                                <p class="card-text">$550.00 MXN</p>
+                                <div>
+                                    <a class="link" href="">
+                                        <div style="background-color: white" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                    <a class="link" href="">
+                                        <div style="background-color: black" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                    <a class="link" href="">
+                                        <div style="background-color: blue" class="colors rounded-5 d-inline-block" href=""></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="p-2">
+                        <p>Mostrando 12 de 12</p>
+                        <p>
+                            Todos los precios están expresados en MXN. Fotografías ilustrativas. Disponibilidad y materiales suejtos a disponibilidad
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
+        <div class="row">
+            <div class="col catalog-guidance"></div>
+        </div>
     </div>
 
     <footer id="footer"></footer>
