@@ -23,8 +23,8 @@
 
 <body>
     <header id="navbar"></header>
-    <div class="container-fluid background-container p-5">
-        <section class="Products&Publications">
+    <div class="container-fluid background-container">
+        <section class="Products&Publications" style="width: fit-content">
             <div class="row">
                 <div class="col">
                     <p>Inicio / Productos</p>
@@ -36,7 +36,7 @@
                 </div>
             </div>
         </section>
-        <section class="CollectionTabs">
+        <section class="CollectionTabs" style="width: fit-content">
             <div class="row">
                 <div class="col p-1">
                     <button class="p-2 marginb">Todos</button>
@@ -46,9 +46,9 @@
                 </div>
             </div>
         </section>
-        <section class="CatalogoLayout">
-            <div class="row">
-                <div class="col-3 p-3">
+        <section class="CatalogoLayout" style="width: fit-content">
+            <div class="row" style="width: fit-content">
+                <div class="col-4">
                     <div class="d-flex">
                         <h5>Filtros</h5>
                         <span class="ms-2">☰</span>
@@ -150,7 +150,7 @@
               Restablecer Filtros
             </button>
                 </div>
-                <div class="col-9 p-3">
+                <div class="col-8 p-0">
                     <div class="results text-end">
                         <label class="m-auto d-inline">12 productos</label>
                         <div class="d-inline">
@@ -161,67 +161,9 @@
                 </select>
                         </div>
                     </div>
-                    <div class="products m-1 p-2">
-                        <div class="card d-inline-flex m-1" style="width: 18vw">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1cD9RQRmdbsXOE1Pch13Y4C6cAU9UbcsybPluVgLvw&s=10" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <span>Corte femenino - Filipinas</span>
-                                <h5 class="card-title">Filipina Ares</h5>
-                                <p class="card-text">$550.00 MXN</p>
-                                <div>
-                                    <a class="link" href="">
-                                        <div style="background-color: white" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                    <a class="link" href="">
-                                        <div style="background-color: black" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                    <a class="link" href="">
-                                        <div style="background-color: blue" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card d-inline-flex m-1" style="width: 18vw">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1cD9RQRmdbsXOE1Pch13Y4C6cAU9UbcsybPluVgLvw&s=10" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <span>Corte femenino - Filipinas</span>
-                                <h5 class="card-title">Filipina Ares</h5>
-                                <p class="card-text">$550.00 MXN</p>
-                                <div>
-                                    <a class="link" href="">
-                                        <div style="background-color: white" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                    <a class="link" href="">
-                                        <div style="background-color: black" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                    <a class="link" href="">
-                                        <div style="background-color: blue" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card d-inline-flex m-1" style="width: 18vw">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1cD9RQRmdbsXOE1Pch13Y4C6cAU9UbcsybPluVgLvw&s=10" class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <span>Corte femenino - Filipinas</span>
-                                <h5 class="card-title">Filipina Ares</h5>
-                                <p class="card-text">$550.00 MXN</p>
-                                <div>
-                                    <a class="link" href="">
-                                        <div style="background-color: white" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                    <a class="link" href="">
-                                        <div style="background-color: black" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                    <a class="link" href="">
-                                        <div style="background-color: blue" class="colors rounded-5 d-inline-block" href=""></div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="Products" class="row"></div>
                     <hr />
-                    <div class="p-2">
+                    <div class="">
                         <p>Mostrando 12 de 12</p>
                         <p>
                             Todos los precios están expresados en MXN. Fotografías ilustrativas. Disponibilidad y materiales suejtos a disponibilidad
@@ -236,6 +178,8 @@
     </div>
 
     <footer id="footer"></footer>
+
+    <script type="module" src="../js/product.js"></script>
 
     <!-- Javascript -->
     <script type="module" src="../js/main.js"></script>
